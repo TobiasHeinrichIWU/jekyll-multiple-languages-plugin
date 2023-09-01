@@ -540,7 +540,7 @@ module Jekyll
       namespace    = key[0]
       lang         = key[1] || site.config[        'lang']
       default_lang =           site.config['default_lang']
-      baseurl      =           site.baseurl
+      baseurl      =           site.config['baseurl_root']
       pages        =           site.pages
       url          = "";
       
